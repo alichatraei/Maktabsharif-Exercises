@@ -1,11 +1,7 @@
 /* Import fonts */
 @font-face {
   font-family: GGX88;
-  src: url(./GGX88.woff);
-}
-@font-face {
-  font-family: Lionel-text;
-  src: url(./Lionel\ Text\ Steam\ Regular.ttf) format(truetype);
+  src: url(./WorkSans-Medium.ttf);
 }
 /* Reset page */
 html,
@@ -54,7 +50,6 @@ main {
   border: none;
   height: 2rem;
   border-bottom: 0.15rem solid #ccc;
-  font-family: Lionel-text;
 }
 .username-input {
   margin-bottom: 2rem;
@@ -65,5 +60,30 @@ main {
   border: none;
   height: 2rem;
   border-bottom: 0.15rem solid #ccc;
-  font-family: Lionel-text;
+}
+.login-button input {
+  border-radius: 2rem;
+  color: white;
+  background-color: green;
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  cursor: pointer;
+  box-shadow: 0px 0px 23px 2px rgba(0, 0, 0, 0.26);
+}
+.captions {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  opacity: 0.5;
+}
+.captions ul li {
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+}
+.captions ul {
+  margin: 0;
 }
