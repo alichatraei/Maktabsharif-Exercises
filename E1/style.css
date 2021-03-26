@@ -1,0 +1,18 @@
+/* Import fonts */
+@font-face {
+  font-family: GGX88;
+  src: url(./GGX88\ W01\ Regular.woff) format(woff);
+}
+/* Reset page */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+* {
+  box-sizing: border-box;
+  font-family: GGX88;
+}
