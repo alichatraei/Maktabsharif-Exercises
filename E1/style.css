@@ -1,7 +1,7 @@
 /* Import fonts */
 @font-face {
   font-family: GGX88;
-  src: url(./GGX88\ W01\ Regular.woff) format(woff);
+  src: url(./GGX88.woff);
 }
 /* Reset page */
 html,
@@ -11,8 +11,21 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 * {
   box-sizing: border-box;
   font-family: GGX88;
+}
+main {
+  width: 30rem;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.welcome-text {
+  height: auto;
+  text-align: center;
 }
