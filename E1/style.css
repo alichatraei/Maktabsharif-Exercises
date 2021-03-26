@@ -3,6 +3,10 @@
   font-family: GGX88;
   src: url(./GGX88.woff);
 }
+@font-face {
+  font-family: Lionel-text;
+  src: url(./Lionel\ Text\ Steam\ Regular.ttf) format(truetype);
+}
 /* Reset page */
 html,
 body {
@@ -19,7 +23,7 @@ body {
   font-family: GGX88;
 }
 main {
-  width: 30rem;
+  width: 20rem;
   height: 40rem;
   display: flex;
   justify-content: center;
@@ -28,11 +32,13 @@ main {
 .welcome-text {
   height: auto;
   text-align: center;
+  margin-bottom: 1rem;
 }
 .welcome-text p {
   font-size: 2rem;
 }
 .avatar-img {
+  margin-bottom: 2rem;
   width: auto;
   text-align: center;
 }
@@ -41,4 +47,23 @@ main {
   border-radius: 50%;
   width: 8rem;
   height: 8rem;
+}
+.username-input input {
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 2rem;
+  border-bottom: 0.15rem solid #ccc;
+  font-family: Lionel-text;
+}
+.username-input {
+  margin-bottom: 2rem;
+}
+.password-input input {
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 2rem;
+  border-bottom: 0.15rem solid #ccc;
+  font-family: Lionel-text;
 }
