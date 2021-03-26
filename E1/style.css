@@ -29,3 +29,16 @@ main {
   height: auto;
   text-align: center;
 }
+.welcome-text p {
+  font-size: 2rem;
+}
+.avatar-img {
+  width: auto;
+  text-align: center;
+}
+.avatar-img img {
+  height: auto;
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+}
