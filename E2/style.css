@@ -38,15 +38,13 @@ main {
   background-attachment: scroll;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-  filter: contrast(50%);
-}
-h3 {
-  position: absolute;
-  z-index: 1;
-  top: 30%;
-  left: 47.5%;
+  background-color: #61727a;
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  font-size: 2rem;
+  
 }
 .username {
   width: 60%;
