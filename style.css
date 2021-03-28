@@ -1,7 +1,7 @@
 /* Import font */
 @font-face {
   font-family: worksans;
-  src: url(./WorkSans-Medium.ttf) format(truetype);
+  src: url(./WorkSans-Medium.ttf);
 }
 html,
 body {
@@ -31,6 +31,7 @@ body:before {
 }
 * {
   box-sizing: border-box;
+  font-family: worksans;
 }
 
 main {
@@ -55,4 +56,11 @@ main {
   background-color: #ffffff;
   border-radius: 50%;
   padding: 0.5rem;
+}
+.login-text {
+  text-align: center;
+  margin-top: 1rem;
+}
+.login-text h1 {
+  color: white;
 }
