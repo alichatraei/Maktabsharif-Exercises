@@ -108,3 +108,20 @@ main {
 .password input::placeholder {
   color: white;
 }
+.rememberMe {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20rem;
+  margin: 3rem auto;
+  font-size: 0.8rem;
+}
+.rememberMe input {
+  color: white;
+  transform: scale(1.3);
+  border: none;
+}
+.rememberMe label {
+  margin-left: 0.3rem;
+  color: white;
+}
