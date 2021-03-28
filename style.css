@@ -44,5 +44,15 @@ main {
     #984eef,
     #a538e8
   );
-  border-radius: .8rem;
+  border-radius: 0.8rem;
+}
+.avatar {
+  text-align: center;
+  margin-top: 2rem;
+}
+.avatar img {
+  width: 6rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 0.5rem;
 }
