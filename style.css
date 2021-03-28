@@ -1,0 +1,15 @@
+/* Import font */
+@font-face {
+  font-family: worksans;
+  src: url(./WorkSans-Medium.ttf) format(truetype);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
