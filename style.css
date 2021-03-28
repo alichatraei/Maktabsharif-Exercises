@@ -70,7 +70,7 @@ main {
   align-items: center;
   border-bottom: 0.1rem solid rgba(255, 255, 255, 0.5);
   width: 20rem;
-  margin: 2rem auto;
+  margin: 2rem auto 0 auto;
   padding-bottom: 0.3rem;
 }
 .username input {
@@ -92,7 +92,7 @@ main {
   align-items: center;
   border-bottom: 0.1rem solid rgba(255, 255, 255, 0.5);
   width: 20rem;
-  margin: 2rem auto;
+  margin: 2rem auto 0 auto;
   padding-bottom: 0.3rem;
 }
 .password input {
@@ -113,7 +113,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   width: 20rem;
-  margin: 3rem auto;
+  margin: 2rem auto 0 auto;
   font-size: 0.8rem;
 }
 .rememberMe input {
@@ -124,4 +124,16 @@ main {
 .rememberMe label {
   margin-left: 0.3rem;
   color: white;
+}
+.login-button {
+  margin-top: 2rem;
+  text-align: center;
+}
+.login-button input {
+  width: 7rem;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 2rem;
 }
