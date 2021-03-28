@@ -64,3 +64,47 @@ main {
 .login-text h1 {
   color: white;
 }
+.username {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.5);
+  width: 20rem;
+  margin: 2rem auto;
+  padding-bottom: 0.3rem;
+}
+.username input {
+  color: white;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  padding: 0;
+}
+.username input::placeholder {
+  color: white;
+}
+.password {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.5);
+  width: 20rem;
+  margin: 2rem auto;
+  padding-bottom: 0.3rem;
+}
+.password input {
+  color: white;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  padding: 0;
+}
+.password input::placeholder {
+  color: white;
+}
