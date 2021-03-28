@@ -35,7 +35,7 @@ body:before {
 }
 
 main {
-  width: 28rem;
+  width: 26rem;
   height: 35rem;
   background-image: linear-gradient(
     to bottom,
@@ -55,7 +55,7 @@ main {
   width: 6rem;
   background-color: #ffffff;
   border-radius: 50%;
-  padding: 0.5rem;
+  padding: 0.9rem;
 }
 .login-text {
   text-align: center;
@@ -136,4 +136,13 @@ main {
   cursor: pointer;
   outline: none;
   border-radius: 2rem;
+}
+.forgotPassword {
+  text-align: center;
+  margin: 5rem 0 0 0;
+}
+.forgotPassword a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
 }
