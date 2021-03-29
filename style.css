@@ -33,3 +33,24 @@ body {
   box-sizing: border-box;
   font-family: websans;
 }
+main {
+  width: 70rem;
+  height: 45rem;
+  display: flex;
+  background-color: #518885;
+  position: relative;
+}
+.leftSide {
+  width: 50%;
+  height: 100%;
+  background-color: #1a505a;
+  position: absolute;
+}
+.rightSide {
+  width: 60%;
+  height: 100%;
+  background-color: #feba33;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+  position: absolute;
+  right: 0;
+}
