@@ -34,7 +34,7 @@ body {
   font-family: websans;
 }
 main {
-  width: 70rem;
+  width: 65rem;
   height: 45rem;
   display: flex;
   background-color: #518885;
@@ -46,11 +46,31 @@ main {
   width: 50%;
   height: 100%;
   background-color: #1a505a;
-  position: absolute;
+  position: relative;
   border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.leftSide img {
+  position: absolute;
+  width: 23rem;
+  height: 28rem;
+  left: 2rem;
+  /* filter: drop-shadow(-15rem 0 10rem rgba(252, 227, 109, 0.3)); */
+}
+.shadow {
+  position: absolute;
+  width: 25rem;
+  height: 30rem;
+  background-color: rgb(252, 227, 109);
+  opacity: 1;
+  filter: blur(50rem);
+  left: -5rem;
+  clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
 }
 .rightSide {
-  width: 58%;
+  width: 60%;
   height: 100%;
   background-color: #feba33;
   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
@@ -63,6 +83,7 @@ main {
   align-items: center;
   flex-flow: column;
 }
+/* Right side items */
 .form {
   margin: 0;
   padding: 0;
@@ -176,9 +197,9 @@ main {
 .notHaveAcc {
   width: 100%;
   text-align: center;
-  margin: 2rem auto 0.8rem;
+  margin: 2rem auto 0;
 }
-.notHaveAcc a {
+.notHaveAcc h4 {
   color: white;
   text-shadow: 0px 2px 4px rgba(150, 150, 150, 1);
   text-decoration: none;
