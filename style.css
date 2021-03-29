@@ -39,18 +39,35 @@ main {
   display: flex;
   background-color: #518885;
   position: relative;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 11px 1px rgba(0, 0, 0, 0.5);
 }
 .leftSide {
   width: 50%;
   height: 100%;
   background-color: #1a505a;
   position: absolute;
+  border-radius: 0.3rem;
 }
 .rightSide {
-  width: 60%;
+  width: 58%;
   height: 100%;
   background-color: #feba33;
   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
   position: absolute;
   right: 0;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  margin: 0;
+  padding: 0;
+  width: 22rem;
+  height: 23rem;
+  background-color: white;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 25px -1px rgba(0, 0, 0, 0.75);
 }
