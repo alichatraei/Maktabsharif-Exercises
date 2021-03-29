@@ -155,3 +155,20 @@ main {
   position: absolute;
   right: 0.5rem;
 }
+.login-button {
+  width: 90%;
+  height: 3.5rem;
+  margin: 2.9rem auto;
+  box-shadow: 0px 0px 12px -8px rgba(0, 0, 0, 0.13);
+}
+.login-button input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #1a535b;
+  font-size: large;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
