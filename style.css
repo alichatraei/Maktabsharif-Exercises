@@ -1,0 +1,35 @@
+/* Import fonts */
+@font-face {
+  font-family: websans;
+  src: url(./assets/WorkSans-Medium.ttf);
+}
+/* Reset page */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right bottom,
+    #518885,
+    #558b89,
+    #598e8c,
+    #5e9190,
+    #629493,
+    #659695,
+    #679897,
+    #6a9a99,
+    #6c9b9a,
+    #6e9d9b,
+    #6f9e9c,
+    #719f9d
+  );
+}
+* {
+  box-sizing: border-box;
+  font-family: websans;
+}
