@@ -61,6 +61,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
 }
 .form {
   margin: 0;
@@ -171,4 +172,22 @@ main {
   font-size: large;
   border-radius: 0.2rem;
   cursor: pointer;
+}
+.notHaveAcc {
+  width: 100%;
+  text-align: center;
+  margin: 2rem auto 0.8rem;
+}
+.notHaveAcc a {
+  color: white;
+  text-shadow: 0px 2px 4px rgba(150, 150, 150, 1);
+  text-decoration: none;
+}
+.createAcc {
+  width: 100%;
+  text-align: center;
+}
+.createAcc a {
+  color: #1a535b;
+  text-decoration: none;
 }
