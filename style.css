@@ -65,11 +65,11 @@ main {
 .form {
   margin: 0;
   padding: 0;
-  width: 22rem;
-  height: 23rem;
+  width: 20rem;
+  height: 21rem;
   background-color: white;
   border-radius: 0.3rem;
-  box-shadow: 1px 1px 25px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 3px 47px 5px rgba(0, 0, 0, 0.3);
 }
 .haveAcc {
   display: flex;
@@ -87,4 +87,71 @@ main {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.3);
   font-size: small;
+}
+.username {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin: 2rem auto;
+  width: 90%;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 12px -8px rgba(0, 0, 0, 0.13);
+}
+.username input {
+  border: 0.1rem solid rgba(0, 0, 0, 0.08);
+  width: 100%;
+  border: none;
+  height: 100%;
+  outline: none;
+  font-size: large;
+  padding: 0 1rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  color: #1a535b;
+}
+.username input:focus {
+  background-color: white;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.username input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: small;
+  color: rgba(26, 83, 91, 0.7);
+}
+.password {
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+  position: relative;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.03);
+  height: 2.5rem;
+  box-shadow: 0px 0px 12px -8px rgba(0, 0, 0, 0.13);
+}
+.password input {
+  color: #1a535b;
+  background-color: transparent;
+  padding: 0 1rem;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: large;
+  margin: 0;
+}
+.password input:focus {
+  background-color: white;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.password input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: small;
+  color: rgba(26, 83, 91, 0.7);
+}
+.password img {
+  width: 1.5rem;
+  position: absolute;
+  right: 0.5rem;
 }
