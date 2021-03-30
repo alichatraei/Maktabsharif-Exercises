@@ -270,3 +270,25 @@ section {
   width: 1.4rem;
   margin-right: 0.4rem;
 }
+/* To up button */
+.toUp {
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background-color: #e9576c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toUp a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toUp img {
+  width: 1rem;
+  transform: rotateX(180deg);
+}
