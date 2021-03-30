@@ -1,3 +1,8 @@
+/* Import font */
+@font-face {
+  font-family: websans;
+  src: url(./assets/WorkSans-Medium.ttf);
+}
 /* Reset page */
 html,
 body {
@@ -9,6 +14,7 @@ body {
 }
 * {
   box-sizing: border-box;
+  font-family: websans;
 }
 /* Header */
 .header {
@@ -91,4 +97,37 @@ body {
 .searchBox a {
   display: flex;
   align-items: center;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.navbar li {
+  list-style: none;
+  margin: 0 1rem;
+}
+.navbar li:hover {
+  color: #e9576c;
+  cursor: pointer;
+}
+/* black caret down */
+.caret-down {
+  width: 0.5rem;
+}
+/* purple caret down */
+.caret-down-purple {
+  width: 0.5rem;
+  display: none;
+}
+/* when the user hover on li elements black caret down's display will none */
+.navbar li:hover .caret-down {
+  display: none;
+}
+/* when the user hover on li elements purple caret down's display appear */
+.navbar li:hover .caret-down-purple {
+  display: inline;
 }
